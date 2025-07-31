@@ -1,0 +1,2 @@
+"step","stepNumber","url"
+"GET jsonplaceholder public API and validating response ","1","{{@api.url}}/"
