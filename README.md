@@ -2,7 +2,7 @@
 End-to-end Mabl test flows with real-world scenarios, Including test steps, test reports and learning notes.  
 Used this for testing: [OrangeHRM Demo Application](https://opensource-demo.orangehrmlive.com/) 
 
-### 🧩 Testing types 
+### 🧩 Testing Types 
 - **Web**: End-to-end UI flows such as login, navigation, and form submission.
 - **Web + API (Hybrid)**: API values captured and reused in UI validations  
   *(e.g., Fetching email from API and validating in logged-in UI state)*.
