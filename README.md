@@ -1,5 +1,6 @@
 # 🔬 mabl-hands-on-tests
-End-to-end Mabl test flows with real-world scenarios, including test reports and detailed learning notes.
+End-to-end Mabl test flows with real-world scenarios, Including test steps, test reports and learning notes.  
+Used this for testing: [OrangeHRM Demo Application](https://opensource-demo.orangehrmlive.com/)
 
 
 ## ⚙️ Test Design & Workflow
