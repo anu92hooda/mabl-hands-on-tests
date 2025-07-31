@@ -7,14 +7,15 @@ Used this for testing: [OrangeHRM Demo Application](https://opensource-demo.oran
 
 1. 🗂️ **Test Plan Setup**
    - Created a new **Ad hoc test plan** in Mabl.
-   - Tagged test cases for easy filtering (e.g., `smoke`, `Add user`).
+   - Tagged test cases for easy filtering (e.g., `smoke`, `Add user`, `API validation`).
 
 2. 🌐 **Environment & Branching**
    - Tests executed in a dedicated **QA environment**.
    - Used a separate **QA branch** for test development.
 
 3. 🧪 **Test Case Variables**
-   - Used dynamic variables like `{{userName}}`, `{{password}}`, and `{{app.url}}` to drive reusability.
+   - Used dynamic variables like `{{userName}}`, `{{password}}`, and `{{app.url}}` for reusability.
+   - **Captured variables dynamically from API responses** and reused them in UI flows for validation.(API Response → user_email_login = [0].email )
 
 4. 🔁 **Data-Driven Testing**
    - Inputs were parameterized to test different data sets efficiently.
